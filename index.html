@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classifieds App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Classifieds Marketplace</h1>
+    </header>
+
+    <main>
+        <section id="form-section">
+            <h2>Post a Product</h2>
+            <form id="product-form">
+                <input type="text" id="product-name" placeholder="Product Name" required>
+                <input type="number" id="product-price" placeholder="Price" required>
+                <textarea id="product-description" placeholder="Description" required></textarea>
+                <input type="file" id="product-image" accept="image/*">
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <section id="products-section">
+            <h2>Products for Sale</h2>
+            <div id="products-list"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Classifieds Marketplace. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
