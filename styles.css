@@ -83,3 +83,29 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+.delete-button {
+    background: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.delete-button:hover {
+    background: #c82333;
+}
+
+.buy-button {
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.buy-button:hover {
+    background: #0056b3;
+}
